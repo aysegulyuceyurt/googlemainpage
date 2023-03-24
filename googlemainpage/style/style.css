@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    display: block;
+}
+
+div.divLeft{
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+    font-size: 14px;
+
+}
+
+div.divLeft a{
+    text-decoration: none;
+    margin: 20px 8px;
+    color: #000;
+    opacity: 0.75;
+}
+
+div.divLeft a:hover{
+    text-decoration: underline;
+}
+
+
+div.divRight{
+    width: 330px;
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    margin-right: -70px;
+
+}
+
+div.divRight a{
+    display: inline-block;
+    float: left;
+    margin: 24px 15px;
+    text-decoration: none;
+}
+
+div.divRightLinks a{
+    color: #000;
+    opacity: 0.75;
+}
+
+div.divRightLinks a img:hover{
+    text-decoration: underline;
+}
+
+
+#logo img{
+    width: 272px;
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+#search{
+    width: 484px;
+    height: 44px;
+    display: block;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    transition: border .001s ease;
+}
+
+#search:hover{
+    box-shadow: 2px 2px 8px #888888;
+}
+
+
+#searchIcon,#searchInput,#voiceLogo{
+    display: inline-block;
+    margin: 3px;
+}
+
+#searchIcon{
+    padding: 7px;
+}
+
+#searchInput{
+    margin-bottom: 130px;
+}
+
+input{
+    border-style: none;
+}
+
+input[type="text"]{
+    font-size: 18px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#voiceLogo{
+    margin: 5px;
+}
+
+#divButtons{
+    display: block;
+    text-align: center;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 25px 6px;
+    padding: 5px 16px;
+    line-height: 27px;
+    transition: border, color, background-color ;
+}
+
+button:hover{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: #292929;
+    box-shadow: 1px 1px 3px #888888;
+}
+
+#footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 40px;
+    display: block;
+    font-size: 14px;
+    padding: 0 0 0 14px;
+    position: fixed;
+    bottom: 0;
+}
+
+#footerLeft{
+    display: inline-block;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+#footerRight{
+    display: inline-block;
+    float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #5F6368;
+    margin-right: 25px;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+}
+
